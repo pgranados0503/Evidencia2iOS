@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1684D6326601DEA005B6762 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1684D6226601DEA005B6762 /* AppDelegate.swift */; };
+		A1684D6526601DEA005B6762 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1684D6426601DEA005B6762 /* SceneDelegate.swift */; };
+		A1684D6726601DEA005B6762 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1684D6626601DEA005B6762 /* ViewController.swift */; };
+		A1684D6A26601DEA005B6762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1684D6826601DEA005B6762 /* Main.storyboard */; };
+		A1684D6C26601DEC005B6762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1684D6B26601DEC005B6762 /* Assets.xcassets */; };
+		A1684D6F26601DEC005B6762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1684D6D26601DEC005B6762 /* LaunchScreen.storyboard */; };
+		A1684D7A26601DEC005B6762 /* EvidenciaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1684D7926601DEC005B6762 /* EvidenciaAppTests.swift */; };
+		A1684D8526601DEC005B6762 /* EvidenciaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1684D8426601DEC005B6762 /* EvidenciaAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1684D7626601DEC005B6762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1684D5726601DEA005B6762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1684D5E26601DEA005B6762;
+			remoteInfo = EvidenciaApp;
+		};
+		A1684D8126601DEC005B6762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1684D5726601DEA005B6762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1684D5E26601DEA005B6762;
+			remoteInfo = EvidenciaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1684D5F26601DEA005B6762 /* EvidenciaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvidenciaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1684D6226601DEA005B6762 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1684D6426601DEA005B6762 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A1684D6626601DEA005B6762 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1684D6926601DEA005B6762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1684D6B26601DEC005B6762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1684D6E26601DEC005B6762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1684D7026601DEC005B6762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1684D7526601DEC005B6762 /* EvidenciaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvidenciaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1684D7926601DEC005B6762 /* EvidenciaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvidenciaAppTests.swift; sourceTree = "<group>"; };
+		A1684D7B26601DEC005B6762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1684D8026601DEC005B6762 /* EvidenciaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvidenciaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1684D8426601DEC005B6762 /* EvidenciaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvidenciaAppUITests.swift; sourceTree = "<group>"; };
+		A1684D8626601DEC005B6762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1684D5C26601DEA005B6762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1684D7226601DEC005B6762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1684D7D26601DEC005B6762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1684D5626601DEA005B6762 = {
+			isa = PBXGroup;
+			children = (
+				A1684D6126601DEA005B6762 /* EvidenciaApp */,
+				A1684D7826601DEC005B6762 /* EvidenciaAppTests */,
+				A1684D8326601DEC005B6762 /* EvidenciaAppUITests */,
+				A1684D6026601DEA005B6762 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1684D6026601DEA005B6762 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1684D5F26601DEA005B6762 /* EvidenciaApp.app */,
+				A1684D7526601DEC005B6762 /* EvidenciaAppTests.xctest */,
+				A1684D8026601DEC005B6762 /* EvidenciaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1684D6126601DEA005B6762 /* EvidenciaApp */ = {
+			isa = PBXGroup;
+			children = (
+				A1684D6226601DEA005B6762 /* AppDelegate.swift */,
+				A1684D6426601DEA005B6762 /* SceneDelegate.swift */,
+				A1684D6626601DEA005B6762 /* ViewController.swift */,
+				A1684D6826601DEA005B6762 /* Main.storyboard */,
+				A1684D6B26601DEC005B6762 /* Assets.xcassets */,
+				A1684D6D26601DEC005B6762 /* LaunchScreen.storyboard */,
+				A1684D7026601DEC005B6762 /* Info.plist */,
+			);
+			path = EvidenciaApp;
+			sourceTree = "<group>";
+		};
+		A1684D7826601DEC005B6762 /* EvidenciaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1684D7926601DEC005B6762 /* EvidenciaAppTests.swift */,
+				A1684D7B26601DEC005B6762 /* Info.plist */,
+			);
+			path = EvidenciaAppTests;
+			sourceTree = "<group>";
+		};
+		A1684D8326601DEC005B6762 /* EvidenciaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1684D8426601DEC005B6762 /* EvidenciaAppUITests.swift */,
+				A1684D8626601DEC005B6762 /* Info.plist */,
+			);
+			path = EvidenciaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1684D5E26601DEA005B6762 /* EvidenciaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1684D8926601DEC005B6762 /* Build configuration list for PBXNativeTarget "EvidenciaApp" */;
+			buildPhases = (
+				A1684D5B26601DEA005B6762 /* Sources */,
+				A1684D5C26601DEA005B6762 /* Frameworks */,
+				A1684D5D26601DEA005B6762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EvidenciaApp;
+			productName = EvidenciaApp;
+			productReference = A1684D5F26601DEA005B6762 /* EvidenciaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1684D7426601DEC005B6762 /* EvidenciaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1684D8C26601DEC005B6762 /* Build configuration list for PBXNativeTarget "EvidenciaAppTests" */;
+			buildPhases = (
+				A1684D7126601DEC005B6762 /* Sources */,
+				A1684D7226601DEC005B6762 /* Frameworks */,
+				A1684D7326601DEC005B6762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1684D7726601DEC005B6762 /* PBXTargetDependency */,
+			);
+			name = EvidenciaAppTests;
+			productName = EvidenciaAppTests;
+			productReference = A1684D7526601DEC005B6762 /* EvidenciaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1684D7F26601DEC005B6762 /* EvidenciaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1684D8F26601DEC005B6762 /* Build configuration list for PBXNativeTarget "EvidenciaAppUITests" */;
+			buildPhases = (
+				A1684D7C26601DEC005B6762 /* Sources */,
+				A1684D7D26601DEC005B6762 /* Frameworks */,
+				A1684D7E26601DEC005B6762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1684D8226601DEC005B6762 /* PBXTargetDependency */,
+			);
+			name = EvidenciaAppUITests;
+			productName = EvidenciaAppUITests;
+			productReference = A1684D8026601DEC005B6762 /* EvidenciaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1684D5726601DEA005B6762 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					A1684D5E26601DEA005B6762 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					A1684D7426601DEC005B6762 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = A1684D5E26601DEA005B6762;
+					};
+					A1684D7F26601DEC005B6762 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = A1684D5E26601DEA005B6762;
+					};
+				};
+			};
+			buildConfigurationList = A1684D5A26601DEA005B6762 /* Build configuration list for PBXProject "EvidenciaApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1684D5626601DEA005B6762;
+			productRefGroup = A1684D6026601DEA005B6762 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1684D5E26601DEA005B6762 /* EvidenciaApp */,
+				A1684D7426601DEC005B6762 /* EvidenciaAppTests */,
+				A1684D7F26601DEC005B6762 /* EvidenciaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1684D5D26601DEA005B6762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1684D6F26601DEC005B6762 /* LaunchScreen.storyboard in Resources */,
+				A1684D6C26601DEC005B6762 /* Assets.xcassets in Resources */,
+				A1684D6A26601DEA005B6762 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1684D7326601DEC005B6762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1684D7E26601DEC005B6762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1684D5B26601DEA005B6762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1684D6726601DEA005B6762 /* ViewController.swift in Sources */,
+				A1684D6326601DEA005B6762 /* AppDelegate.swift in Sources */,
+				A1684D6526601DEA005B6762 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1684D7126601DEC005B6762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1684D7A26601DEC005B6762 /* EvidenciaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1684D7C26601DEC005B6762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1684D8526601DEC005B6762 /* EvidenciaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1684D7726601DEC005B6762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1684D5E26601DEA005B6762 /* EvidenciaApp */;
+			targetProxy = A1684D7626601DEC005B6762 /* PBXContainerItemProxy */;
+		};
+		A1684D8226601DEC005B6762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1684D5E26601DEA005B6762 /* EvidenciaApp */;
+			targetProxy = A1684D8126601DEC005B6762 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1684D6826601DEA005B6762 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1684D6926601DEA005B6762 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1684D6D26601DEC005B6762 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1684D6E26601DEC005B6762 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1684D8726601DEC005B6762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1684D8826601DEC005B6762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1684D8A26601DEC005B6762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQX98H9PH4;
+				INFOPLIST_FILE = EvidenciaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = paulgranados.EvidenciaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1684D8B26601DEC005B6762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQX98H9PH4;
+				INFOPLIST_FILE = EvidenciaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = paulgranados.EvidenciaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1684D8D26601DEC005B6762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQX98H9PH4;
+				INFOPLIST_FILE = EvidenciaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = paulgranados.EvidenciaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EvidenciaApp.app/EvidenciaApp";
+			};
+			name = Debug;
+		};
+		A1684D8E26601DEC005B6762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQX98H9PH4;
+				INFOPLIST_FILE = EvidenciaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = paulgranados.EvidenciaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EvidenciaApp.app/EvidenciaApp";
+			};
+			name = Release;
+		};
+		A1684D9026601DEC005B6762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQX98H9PH4;
+				INFOPLIST_FILE = EvidenciaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = paulgranados.EvidenciaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EvidenciaApp;
+			};
+			name = Debug;
+		};
+		A1684D9126601DEC005B6762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XQX98H9PH4;
+				INFOPLIST_FILE = EvidenciaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = paulgranados.EvidenciaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EvidenciaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1684D5A26601DEA005B6762 /* Build configuration list for PBXProject "EvidenciaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1684D8726601DEC005B6762 /* Debug */,
+				A1684D8826601DEC005B6762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1684D8926601DEC005B6762 /* Build configuration list for PBXNativeTarget "EvidenciaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1684D8A26601DEC005B6762 /* Debug */,
+				A1684D8B26601DEC005B6762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1684D8C26601DEC005B6762 /* Build configuration list for PBXNativeTarget "EvidenciaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1684D8D26601DEC005B6762 /* Debug */,
+				A1684D8E26601DEC005B6762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1684D8F26601DEC005B6762 /* Build configuration list for PBXNativeTarget "EvidenciaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1684D9026601DEC005B6762 /* Debug */,
+				A1684D9126601DEC005B6762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1684D5726601DEA005B6762 /* Project object */;
+}
